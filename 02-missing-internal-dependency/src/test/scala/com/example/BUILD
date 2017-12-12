@@ -4,6 +4,6 @@ scala_specs2_junit_test(
     name = "scala_example_test",
     size = "small",
     srcs = ["ExampleTest.scala"],
-    deps = [],
+    deps = ["//src/main/scala/com/example:scala_example"],
     suffixes = ["Test"],
 )
